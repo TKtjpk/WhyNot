@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <!-- Below link and script used to add bootstrap localy and use it without server - will remove later-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+        <!-- <script type="text/javascript" href="js/bootstrap.min.js"></script> -->
+        <script src="custom.js"></script>
+        <title>WhyNot!</title>
+    </head>
+    <body class="mainsettings">
+        <nav class="navbar navbar-expand-md bg-transparent">
+            <a class="navbar-brand pad bg-transparent text-dark" href="index.html">Main</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav pad">
+                    <li class="nav-item">
+                        <a class="nav-link bg-transparent text-dark" href="hobby.html">Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-transparent text-dark" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-transparent text-dark" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="text-left fst-italic">Let's play</h1>
+            <form class="row row-cols-4 g-3 align-items-center">
+                <div class="col-6">
+                    <div class="card carddist">
+                        <div class="card-body">
+                          <p class="card-title text-center">Fuel consumption in the car is measured by liters/km. As the vessel's fuel consumtpion depends more on load of the engine, how heavy vessel is, required speed etc. It's more convienient to present the data as total consumption per day. As well the mesuremen is not in liters but in metric tons</p>
+                          <p class="card-title text-center">Your task is to select from propositions below the right answer. What is average daily fuel consumption for heavy loaded container vessel of size ~8000TEU, sailing with a speed of ~20knots</p>
+                            <button id="1" onClick="check1(1)" type="button" class="btn btn-dark">10 t/day</button>
+                            <button id="2" onClick="check1(2)" type="button" class="btn btn-dark">20 t/day</button>
+                            <button id="3" onClick="check1(3)" type="button" class="btn btn-dark">110 t/day</button>
+                            <button id="4" onClick="check1(4)" type="button" class="btn btn-dark">300 t/day</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6">
+                    <div class="card carddist">
+                        <div class="card-body">
+                            <p class="card-title text-center">Engine power might be indicated as kW (kilo Watt) or HP (horse power). As you may imagine, vessel's engine must be very powerful but as well not oversized as due to economic reasons.</p>
+                            <p class="card-title text-center">Your task is to select from propositions below the right answer. What is the most powerfull engine build for shipping industry.</p>
+                            <button id="5" onClick="check2(5)" type="button" class="btn btn-dark">10000 HP</button>
+                            <!-- <button id="6" onClick="check(6)" type="button" class="btn btn-dark">30000</button> -->
+                            <button id="6" onClick="check2(6)" type="button" class="btn btn-dark">70000 HP</button>
+                            <button id="7" onClick="check2(7)" type="button" class="btn btn-dark">100000 HP</button>
+                        </div>
+                      </div>
+                </div>
+                <!-- <div class="col-4">
+                    <div class="card carddist">
+                        <div class="card-body">
+                            <p class="card-title text-center">Fuel consumption in the car is measured by liters/km. As the vessel's fuel consumtpion depends more on load of the engine, how heavy vessel is, required speed etc. It's more convienient to present the data as total consumption per day. As well the mesuremen is not in liters but in metric tons</p>
+                            <p class="card-title text-center">Your task is to select from propositions below the right answer. What is average daily fuel consumption for heavy loaded container vessel of size ~8000TEU, sailing with a speed of ~20knots</p>
+                            <button type="button" class="btn btn-dark">10 t/day</button>
+                            <button type="button" class="btn btn-dark">20 t/day</button>
+                            <button type="button" class="btn btn-dark">110 t/day</button>
+                            <button type="button" class="btn btn-dark">300 t/day</button>
+                        </div>
+                      </div>
+                </div> -->
+            </form>
+        </div>
+    </body>
+    <nav class="navbar navbar-expand-md bg-transparent">
+        <ul class="navbar-nav pad">
+            <li class="nav-item"></li>
+                <a href='https://www.freepik.com/vectors/subtle' class="nav-item text-dark text-muted">Subtle vector created by freepik - www.freepik.com</a>
+            </li>
+        </ul>
+    </nav>
+</html>

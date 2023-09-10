@@ -1,0 +1,26 @@
+.navbar-brand.pad {
+    padding-left: 30%;
+}
+
+.navbar-nav.pad {
+    padding-left: 10%;
+}
+
+.mainsettings {
+    background: url(bg.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.freepik {
+    margin-top: 15%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.carddist {
+    border-radius: 20px;
+    box-shadow: -20px 20px 15px #747373;
+}

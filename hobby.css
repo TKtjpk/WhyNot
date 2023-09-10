@@ -1,0 +1,63 @@
+.navbar-brand.pad {
+    padding-left: 30%;
+}
+
+.navbar-nav.pad {
+    padding-left: 10%;
+}
+
+.mainsettings {
+    background: url(bg.jpg) no-repeat top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.freepik {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.pictdist {
+    width:40%;
+    height:40%;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: -20px 20px 15px #747373;
+}
+
+.carddist {
+    align-items:flex-end;
+    margin: 5%;
+    border-radius: 30px;
+    box-shadow: -20px 20px 15px #747373;
+}
+
+.pushit {
+    margin-top: 5%;
+    font-size:100px;
+    background: -webkit-linear-gradient(-45deg, rgba(246, 243, 243, 0.7), rgba(53, 205, 61, 0.5),rgba(28, 21, 115, 0.9), rgba(225, 204, 94, 0.5), rgba(202, 102, 199, 0.7), rgba(184, 17, 17, 0.7));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: pushit 15s ease infinite;
+}
+
+@keyframes pushit {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.footset {
+    margin-bottom: 20px;
+    margin-left: 2%;
+    text-align: left;
+}
