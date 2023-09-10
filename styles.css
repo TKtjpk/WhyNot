@@ -29,7 +29,7 @@
 }
 
 .mainsettings {
-    background: url("bg.jpg") no-repeat center fixed; 
+    background: url("./images/bg.jpg") no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
